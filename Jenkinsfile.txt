@@ -8,7 +8,7 @@ pipeline {
             steps {
                 script {
                     // Checkout the latest code from the repository
-                    git url: 'TON_LIEN_DE_REPO_GIT', branch: 'main'
+                    git url: 'https://github.com/zakclik/projet1.git', branch: 'main'
                 }
             }
         }
